@@ -1,0 +1,18 @@
+.el{
+    height: 25px;
+    width: 100px;
+    background-color: transparent;
+    margin: 100px;
+    margin-left: 1380px;
+    margin-top: 150px;
+    position: fixed;
+    
+    
+
+    /* Setting Border Radius */
+    border-radius: 100%;
+    
+    border: 10px solid #7B61FF;
+    transform: rotate(10deg);
+    
+}

@@ -1,0 +1,36 @@
+
+h1{
+    
+    color: rgb(133, 6, 140);
+}
+p{
+    color: rgb(133, 6, 140);
+ }
+.formulario{
+    
+    border-color:  rgb(133, 6, 140);;
+    border-width: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.ellipse{
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    margin: 100px;
+    margin-left: 1300px;
+    margin-top: 20px;
+    position: fixed;
+
+    /* Setting Border Radius */
+    border-radius: 100%;
+    
+    border: 6px solid #7B61FF;
+    transform: rotate(10deg);
+    
+}
+
+

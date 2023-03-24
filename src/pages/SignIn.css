@@ -1,0 +1,247 @@
+
+h1{
+    
+    color: #000000;
+}
+p{
+    color: rgb(133, 6, 140);
+ }
+.formulario{
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    
+    border-width: 4px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+.form-area{
+    background-color: rgb(255, 255, 255) ;
+    
+    border-radius: 15px;
+    display:block;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 550px;
+
+    height: 420px;
+    width: 330px;
+
+    
+   
+}
+
+.ra-field{
+    display: flexbox;
+    margin: 10px;
+    
+}
+
+.psw-field{
+    display: flexbox;
+    margin: 10px;
+}
+
+
+.login-button{
+    width: 250px;
+    height: 50px;
+    background-image: linear-gradient( to right , #7B61FF, rgb(211, 21, 233));
+    border-color: white;
+    border-style: solid;
+    border-radius: 40px;
+}   
+
+.login-button:hover{
+    border: 6px solid #ffffff;
+    transition: all 0.2s ease-out;
+
+    
+}
+
+.oculus{
+
+    height: 20px;
+    width: 100px;
+    color: white;
+    
+}
+.to-signup{
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    background-image: linear-gradient( to right , #7B61FF, rgb(211, 21, 233));
+    border-color: white;
+    border-style: solid;
+    border-radius: 40px;
+    
+    
+    
+}
+
+.sign-up-icon{
+    height: 20px;
+    width: 100px;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.to-signup:hover{
+    border: 6px solid #ffffff;
+    transition: all 0.2s ease-out;
+}
+
+.line1{
+    
+    height: 3px;
+    width: 160px;
+
+    margin-top: 20px;
+    display: flex;
+  border: 0;
+  background: #000000;
+  
+}
+.line2{
+    height: 3px;
+    width: 160px;
+
+    margin-top: 20px;
+    display: flex;
+  border: 0;
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  
+  
+}
+.ou{
+    margin: 4px;
+    margin-top: 10px;
+}
+.ou-box{
+    display: flex;
+    
+}
+
+
+.ellipse1-sg{
+    height: 20px;
+    width: 100px;
+    background-image: linear-gradient( to right , #7B61FF, rgb(211, 21, 233));
+    margin: 10px;
+    margin-left: 500px;
+    margin-top: 10px;
+    position: fixed;
+
+    /* Setting Border Radius */
+    border-radius: 100%;
+    
+    border: 4px solid #ffffff;
+    
+    transform: rotate(20deg);
+
+    animation: mymove 20s infinite alternate;
+    
+   
+    
+}
+
+ .ellipse2-sg{
+    height: 20px;
+    width: 100px;
+    background-color: transparent;
+    margin: 10px;
+    margin-left: 800px;
+    margin-top: 50px;
+    position: fixed;
+
+    /* Setting Border Radius */
+    border-radius: 100%;
+    
+    border: 4px solid #7B61FF;
+    transform: rotate(30deg);
+
+    animation: mymove 25s infinite alternate ;
+    
+    
+    
+}
+.ellipse3-sg{
+    height: 20px;
+    width: 100px;
+    background-color: transparent;
+    margin: 10px;
+    margin-left: 350px;
+    margin-top: 200px;
+    position: fixed;
+
+    /* Setting Border Radius */
+    border-radius: 100%;
+    
+    border: 4px solid #7B61FF;
+    transform: rotate(15deg);
+
+    animation: mymove 30s infinite ;
+    
+    
+}
+.ellipse4-sg{
+    height: 20px;
+    width: 100px;
+    background-color: transparent;
+    margin: 10px;
+    margin-left: 600px;
+    margin-top: 400px;
+    position: fixed;
+
+    /* Setting Border Radius */
+    border-radius: 100%;
+    
+    border: 4px solid #7B61FF;
+    transform: rotate(18deg);
+
+    animation: mymove 20s infinite ;
+
+}
+
+.ellipse5-sg{
+    height: 10px;
+    width: 70px;
+    background-color: transparent;
+    margin: 10px;
+    margin-left: 800px;
+    margin-top: 500px;
+    position: fixed;
+
+    /* Setting Border Radius */
+    border-radius: 100%;
+    
+    border: 4px solid #7B61FF;
+    transform: rotate(9deg);
+
+    animation: mymove 10s infinite ;
+       
+}
+
+
+
+@keyframes mymove {
+    
+  0%   { left:-900px; rotate: 0deg;}
+  
+ 
+  
+  100% { left:800px;rotate: 360deg; } /* ellipses psicando depois vai de roxo ate preto volta isso ai kkkk*/
+  
+    
+}
+
+
+
